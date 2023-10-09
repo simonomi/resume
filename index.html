@@ -2,6 +2,13 @@
 	<head>
 		<title>Simon Pellerin - Resume</title>
 		<meta charset="UTF-8">
+		<script>
+			const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+			if (isMobile) {
+				window.location.replace("/resume/resume.pdf")
+			}
+		</script>
 		<style>
 			body {
 				overflow: hidden;
