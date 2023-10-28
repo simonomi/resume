@@ -1,7 +1,7 @@
 \documentclass[10pt,letterpaper,ragged2e,withhyper]{article}
 \thispagestyle{empty}
 
-\usepackage[utf8]{inputenc}
+% \usepackage[utf8x]{inputenc}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -13,8 +13,10 @@
 
 \usepackage[margin=1.5cm]{geometry}
 
-\usepackage[defaultsans]{lato}
-\renewcommand{\familydefault}{\sfdefault}
+\usepackage[default]{lato}
+
+\usepackage[fallback]{xeCJK}
+\setCJKmainfont{AppleGothic}
 
 \RequirePackage{tikz}
 
@@ -69,8 +71,7 @@
 			% \phoneicon(***) ***-**** (text preferred)\\
 		\end{center}
 
-		\hspace{1em}Student at Wentworth Institute of Technology in Boston. Technology enthusiast experienced in application and server-side development, but quick to acquire new skills. Most experienced in the development of apps in Swift using SwiftUI, Python using tkinter, and plugins for Obsidian using TypeScript.\\~
-		% \hspace{1em}Student at Wentworth Institute of Technology in Boston. \\~
+		\hspace{1em}Student at Wentworth Institute of Technology in Boston. Interested in application development, embedded systems, compiler engineering, GPU acceleration, and high-performance environments. Quick to acquire new skills and enthusiastic about open-source projects. Very interested in languages including Swift, Rust, Haskell, 日本語, and русский.\\~
 		
 		\categoryheader{Projects}
 		
@@ -140,7 +141,7 @@
 		\languagetag{Java} 5 years (\mytilde10,000 lines)\\ % august 2018
 		\languagetag{Rust} 1 year (\mytilde1,000 lines)\\~ % september 2022
 		
-		\languagetag{Bash} \languagetag{C} \languagetag{C++} \languagetag{CSS} \languagetag{HTML} \languagetag{JavaScript} \languagetag{Lua} \languagetag{\LaTeX} \languagetag{TypeScript}\\~
+		\languagetag{Bash} \languagetag{C} \languagetag{C++} \languagetag{CSS} \languagetag{HTML} \languagetag{JavaScript} \languagetag{Haskell} \languagetag{\LaTeX} \languagetag{TypeScript}\\~
 		
 		{\Large APIs/Frameworks}\\~
 		
