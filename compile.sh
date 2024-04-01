@@ -1,2 +1,2 @@
-sh -c "xelatex \"Simon Pellerin - Resume.sty\"; rm \"Simon Pellerin - Resume.aux\"; rm \"Simon Pellerin - Resume.log\"; rm \"Simon Pellerin - Resume.out\"; open \"Simon Pellerin - Resume.pdf\""
-fswatch -o "Simon Pellerin - Resume.sty" | xargs -n1 -I{} sh -c "xelatex \"Simon Pellerin - Resume.sty\"; rm \"Simon Pellerin - Resume.aux\"; rm \"Simon Pellerin - Resume.log\"; rm \"Simon Pellerin - Resume.out\"; open \"Simon Pellerin - Resume.pdf\""
+sh -c "xelatex \"Alice Pellerin - Resume.sty\"; rm \"Alice Pellerin - Resume.aux\"; rm \"Alice Pellerin - Resume.log\"; rm \"Alice Pellerin - Resume.out\"; open \"Alice Pellerin - Resume.pdf\""
+fswatch -o "Alice Pellerin - Resume.sty" | xargs -n1 -I{} sh -c "xelatex \"Alice Pellerin - Resume.sty\"; rm \"Alice Pellerin - Resume.aux\"; rm \"Alice Pellerin - Resume.log\"; rm \"Alice Pellerin - Resume.out\"; open \"Alice Pellerin - Resume.pdf\""
