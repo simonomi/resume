@@ -1,4 +1,8 @@
-\documentclass[10pt,letterpaper,ragged2e,withhyper]{article}
+%! TEX program = xelatex
+%! TEX TS-program = xelatex
+
+% \documentclass[10pt,letterpaper,ragged2e,withhyper]{article}
+\documentclass[10pt,letterpaper]{article}
 \thispagestyle{empty}
 
 \usepackage{hyperref}
@@ -9,7 +13,12 @@
 	pdfpagemode=FullScreen,
 }
 
+\usepackage{silence}
+
 \usepackage[margin=1.5cm]{geometry}
+
+% silences warning about AppleGothic not supporting CJK
+\PassOptionsToPackage{silent}{fontspec}
 
 \usepackage[default]{lato}
 
@@ -58,7 +67,7 @@
 \begin{document}
 	\noindent\begin{minipage}[t]{0.57\linewidth}
 		\raggedright
-		
+	
 		\begin{center}
 			{\Huge\textbf{Alice Pellerin}} she/they\\~
 			
@@ -117,8 +126,8 @@
 			
 			\item \href{https://skillsusatx.org/wp-content/uploads/2022/04/Contest_Winners2022.pdf#page=45}{SkillsUSA Texas State Programming Finalist}
 		\end{itemize}
-	\end{minipage}
-	\hspace{0.05\linewidth}
+	\end{minipage}% this comment removes extra space
+	\hspace{0.05\linewidth}% this comment removes extra space
 	\begin{minipage}[t]{0.38\linewidth}
 		\raggedright
 		
