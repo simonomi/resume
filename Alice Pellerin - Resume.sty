@@ -9,7 +9,7 @@
 \hypersetup{
 	colorlinks=true,
 	urlcolor=black,
-	pdftitle={Alice Pellerin's Résumé},
+	pdftitle={alice pellerin's Résumé},
 	pdfpagemode=FullScreen,
 }
 
@@ -21,6 +21,8 @@
 \PassOptionsToPackage{silent}{fontspec}
 
 \usepackage[default]{lato}
+
+\usepackage[normalem]{ulem} % for strikethrough with \sout
 
 \usepackage[fallback]{xeCJK}
 \setCJKmainfont{AppleGothic}
@@ -64,101 +66,36 @@
 	\color{lightgray}- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\color{black}
 }
 
+\newcommand{\shortdashedline}{
+	\color{lightgray}- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\color{black}
+}
+
 \begin{document}
 	\noindent\begin{minipage}[t]{0.57\linewidth}
 		\raggedright
 	
 		\begin{center}
-			{\Huge\textbf{Alice Pellerin}} she/they\\~
+			{\Huge\textbf{alice pellerin}} she/they\\~
 			
 			\href{https://simonomi.dev}{\globe simonomi.dev}\\
-			\href{mailto:thesimonpellerin@gmail.com}{{\large\textbf{@}} thesimonpellerin@gmail.com}\\
+			\href{mailto:thealicepellerin@gmail.com}{{\large\textbf{@}} thealicepellerin@gmail.com}\\
 			\href{https://www.github.com/simonomi}{\githublogo simonomi}\hspace{1em}
 			\href{https://www.linkedin.com/in/simonomi}{\linkedinlogo simonomi}\\
 			% \phoneicon(***) ***-**** (text preferred)\\
 		\end{center}
 
-		\hspace{1em}Student at Wentworth Institute of Technology in Boston. Interested in application development, embedded systems, compiler engineering, GPU acceleration, and high-performance environments. Quick to acquire new skills and enthusiastic about open-source projects. Very interested in languages including Swift, Rust, Haskell, 日本語, and русский.\\~
+% 		\hspace{1em}\sout{Student at Wentworth Institute of Technology in Boston. Interested in application development, embedded systems, compiler engineering, GPU acceleration, and high-performance environments. Quick to acquire new skills and enthusiastic about open-source projects. Very interested in languages including Swift, Rust, Haskell, 日本語, and русский.}\\~
 		
-		\categoryheader{Projects}
-		
-		\itemheader{mage} (unreleased)\\
-		Designed, developed, and iterated upon a Trakt client for iOS.\\
-		\languagetag{Swift} \languagetag{SwiftUI} \languagetag{REST} \languagetag{JSON} \languagetag{Trakt} \languagetag{Xcode}\\~
-		
-		\dashedline\\~
-		
-		\itemheader{Metal Ray Tracer}\\
-		\href{https://www.github.com/simonomi/MetalRayTracing}{\githublogo simonomi/MetalRayTracing}\\
-		Created a custom ray tracing engine from scratch using Metal.
-		\languagetag{Swift} \languagetag{Metal} \languagetag{MSL} \languagetag{C++} \languagetag{Python}\\~
-		
-		\dashedline\\~
-		
-		\itemheader{carbonizer}\\
-		\href{https://www.github.com/simonomi/carbonizer}{\githublogo simonomi/carbonizer}\\
-		Designed and implemented an easy-to-use DS ROM-hacking tool.\\
-		\languagetag{Swift} \languagetag{Foundation} \languagetag{NDS}\\~
-		
-		\dashedline\\~
-		
-		\itemheader{Personal Website}\\
-		\href{https://www.github.com/simonomi/simonomi.github.io}{\githublogo simonomi/simonomi.github.io}\hspace{1em}\href{https://www.simonomi.dev}{\globe simonomi.dev}\\
-		Designed and built a mobile-friendly personal website.\\
-		\languagetag{HTML} \languagetag{CSS} \languagetag{DNS} \languagetag{git}\\~\\~
-		
-		\categoryheader{Certifications/Awards}
-		
-		\itemheader{\href{https://www.credly.com/badges/52e9c2c6-2f4f-48be-9c0e-8f2059beb61c/public_url}{CompTIA Security+ Certification}}\\
-		Knowledge and hands-on experience with core cybersecurity topics.\\~
-		
-		\itemheader{Awards}
-		
-		\begin{itemize}
-			\item \href{https://apstudents.collegeboard.org/awards-recognitions/ap-scholar-award#:~:text=AP\%20Scholar\%20with\%20Distinction}{AP Scholar with Distinction}
-			
-			\item \href{https://api.badgr.io/public/assertions/66EA6l6mTMCXc88GpP2gMA}{National Cyber Scholar 2022}
-			
-			\item \href{https://m3challenge.siam.org/archives/2022}{MathWorks Math Modeling Challenge 2022}
-			\begin{itemize}
-				\item 2nd round - top 18.5\%
-			\end{itemize}
-			
-			\item \href{https://skillsusatx.org/wp-content/uploads/2022/04/Contest_Winners2022.pdf#page=45}{SkillsUSA Texas State Programming Finalist}
-		\end{itemize}
-	\end{minipage}% this comment removes extra space
-	\hspace{0.05\linewidth}% this comment removes extra space
-	\begin{minipage}[t]{0.38\linewidth}
-		\raggedright
-		
-		\categoryheader{Education}
-		
-		\itemheader{Wentworth Institute of Technology}| Boston, MA\\
-		\textbf{Computer Science, B.S.}\\
-		Expected graduation: December 2025\\
-		GPA: 3.0/4.0\\
-		\languagetag{C} \languagetag{Java} \languagetag{Linux} \languagetag{git} \languagetag{PostgreSQL}\\~\\~
-		
-		\categoryheader{Skills}
-		
-		{\Large Languages}\\~
-		
-		\languagetag{Swift} 2 years (\mytilde50,000 lines)\\ % may 2021
-		\languagetag{Python} 7 years (\mytilde15,000 lines)\\ % august 2016
-		\languagetag{Java} 5 years (\mytilde10,000 lines)\\ % august 2018
-		\languagetag{Rust} 1 year (\mytilde1,000 lines)\\~ % september 2022
-		
-		\languagetag{ARM assembly} \languagetag{Bash} \languagetag{C} \languagetag{C++} \languagetag{CSS} \languagetag{GDScript} \languagetag{GLSL} \languagetag{Haskell} \languagetag{HTML} \languagetag{JavaScript} \languagetag{\LaTeX} \languagetag{SQL} \languagetag{TypeScript}\\~
-		
-		{\Large APIs/Frameworks/Databases}\\~
-		
-		\languagetag{Discord} \languagetag{Heroku} \languagetag{Metal} \languagetag{Obsidian} \languagetag{Postgres} \languagetag{REST} \languagetag{Spotify} \languagetag{SwiftSyntax} \languagetag{SwiftUI} \languagetag{tkinter} \languagetag{Trakt} \languagetag{Vapor} \languagetag{VLC}\\~
-		
-		{\Large Tools/Environments}\\~
-		
-		\languagetag{Bash} \languagetag{git} \languagetag{Godot} \languagetag{Linux} \languagetag{macOS} \languagetag{SwiftPM} \languagetag{Vim} \languagetag{Windows} \languagetag{Xcode}\\~\\~
+		\hspace{1em}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non turpis eu magna accumsan tempus. Curabitur vestibulum diam eu consequat varius. Phasellus posuere a mi quis pretium. Vestibulum sollicitudin, leo id vulputate malesuada, ligula elit feugiat tellus, at sollicitudin purus felis vel ligula. Nunc lobortis mi vitae suscipit tincidunt. Nunc feugiat mattis justo vel pretium. Donec ac lectus varius, auctor erat blandit, tempor orci. Praesent eget ipsum ex. Morbi justo velit, aliquet iaculis elit quis, convallis elementum orci.\\~
 		
 		\categoryheader{Work Experience}
+		
+		\itemheader{Apple}\\
+		May 2024 | August 2024\hspace{2em}Cupertino, California
+		\begin{itemize}
+			\item verb a personal project as an intern on the SwiftUI team
+			\item something about widgets
+		\end{itemize}
 		
 		\itemheader{Stokan Jaggers \& Associates}\\
 		Nov. 2020 | July 2021\hspace{2em}Katy, Texas
@@ -172,5 +109,85 @@
 		\begin{itemize}
 			\item Worked in a team to prepare and deliver food to customers
 		\end{itemize}
+		
+		\categoryheader{Projects}
+		
+		\itemheader{carbonizer}\\
+		\href{https://www.github.com/simonomi/carbonizer}{\githublogo simonomi/carbonizer}\\
+		Designed and implemented an easy-to-use DS ROM-hacking tool.\\
+		\languagetag{Swift} \languagetag{Foundation} \languagetag{NDS}\\~
+		
+		\dashedline\\~
+		
+		\itemheader{Metal Ray Tracer}\\
+		\href{https://www.github.com/simonomi/MetalRayTracing}{\githublogo simonomi/MetalRayTracing}\\
+		Created a custom ray tracing engine from scratch using Metal.
+		\languagetag{Swift} \languagetag{Metal} \languagetag{MSL} \languagetag{C++} \languagetag{Python}\\~
+		
+		\dashedline\\~
+		
+		
+		\itemheader{mage} (unreleased)\\
+		Designed, developed, and iterated upon a Trakt client for iOS.\\
+		\languagetag{Swift} \languagetag{SwiftUI} \languagetag{REST} \languagetag{JSON} \languagetag{Trakt} \languagetag{Xcode}\\~
+		
+% 		\categoryheader{\sout{Certifications/Awards}}
+% 		
+% 		\itemheader{\href{https://www.credly.com/badges/52e9c2c6-2f4f-48be-9c0e-8f2059beb61c/public_url}{CompTIA Security+ Certification}}\\
+% 		Knowledge and hands-on experience with core cybersecurity topics.\\~
+% 		
+% 		\itemheader{Awards}
+% 		
+% 		\begin{itemize}
+% 			\item \href{https://apstudents.collegeboard.org/awards-recognitions/ap-scholar-award#:~:text=AP\%20Scholar\%20with\%20Distinction}{AP Scholar with Distinction}
+% 			
+% 			\item \href{https://api.badgr.io/public/assertions/66EA6l6mTMCXc88GpP2gMA}{National Cyber Scholar 2022}
+% 			
+% 			\item \href{https://m3challenge.siam.org/archives/2022}{MathWorks Math Modeling Challenge 2022}
+% 			\begin{itemize}
+% 				\item 2nd round - top 18.5\%
+% 			\end{itemize}
+% 			
+% 			\item \href{https://skillsusatx.org/wp-content/uploads/2022/04/Contest_Winners2022.pdf#page=45}{SkillsUSA Texas State Programming Finalist}
+% 		\end{itemize}
+	\end{minipage}% this comment removes extra space
+	\hspace{0.05\linewidth}% this comment removes extra space
+	\begin{minipage}[t]{0.38\linewidth}
+		\raggedright
+		
+		\categoryheader{Projects (Continued)}
+		
+		\itemheader{Personal Website}\\
+		\href{https://www.github.com/simonomi/simonomi.github.io}{\githublogo simonomi/simonomi.github.io}\\
+		\href{https://www.simonomi.dev}{\globe simonomi.dev}\\
+		Designed and built a mobile-friendly personal website.\\
+		\languagetag{HTML} \languagetag{CSS} \languagetag{DNS} \languagetag{git}\\~\\~
+		
+% 		\categoryheader{\sout{Education}}
+% 		
+% 		\itemheader{Wentworth Institute of Technology}| Boston, MA\\
+% 		\textbf{Computer Science, B.S.}\\
+% 		Expected graduation: December 2025\\
+% 		GPA: 3.0/4.0\\
+% 		\languagetag{C} \languagetag{Java} \languagetag{Linux} \languagetag{git} \languagetag{PostgreSQL}\\~\\~
+		
+		\categoryheader{Skills}
+		
+		{\Large Languages}\\~
+		
+		\languagetag{Swift} 4 years (\mytilde50,000 lines)\\ % may 2021
+		\languagetag{Python} 8 years (\mytilde15,000 lines)\\ % august 2016
+		\languagetag{Java} 6 years (\mytilde10,000 lines)\\ % august 2018
+		\languagetag{Rust} 2 years (\mytilde1,500 lines)\\~ % september 2022
+		
+		\languagetag{ARM assembly} \languagetag{Bash} \languagetag{C} \languagetag{C++} \languagetag{CSS} \languagetag{GDScript} \languagetag{GLSL} \languagetag{HTML} \languagetag{JavaScript} \languagetag{\LaTeX} \languagetag{Rocq} \languagetag{SQL} \languagetag{TypeScript}\\~
+		
+		{\Large APIs/Frameworks/Databases}\\~
+		
+		\languagetag{Discord} \languagetag{Heroku} \languagetag{Metal} \languagetag{Obsidian} \languagetag{Postgres} \languagetag{REST} \languagetag{Spotify} \languagetag{SwiftSyntax} \languagetag{SwiftUI} \languagetag{tkinter} \languagetag{Trakt} \languagetag{Vapor} \languagetag{VLC}\\~
+		
+		{\Large Tools/Environments}\\~
+		
+		\languagetag{Bash} \languagetag{git} \languagetag{Godot} \languagetag{Linux} \languagetag{macOS} \languagetag{SwiftPM} \languagetag{Vim} \languagetag{Windows} \languagetag{Xcode}\\~\\~
 	\end{minipage}
 \end{document}
