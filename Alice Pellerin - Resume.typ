@@ -143,6 +143,7 @@
 	#linebreak()
 	#languageLabel[HTML]
 	#languageLabel[CSS]
+	#languageLabel[JavaScript]
 	#languageLabel[DNS]
 	#languageLabel[git]
 	
