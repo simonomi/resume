@@ -1,5 +1,0 @@
-build:
-	typst compile "alice pellerin - Resume.typ" "alice pellerin - Resume.pdf"
-	open "alice pellerin - Resume.pdf"
-	open /System/Applications/Utilities/Terminal.app
-

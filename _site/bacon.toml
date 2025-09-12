@@ -1,6 +1,0 @@
-[jobs.just]
-command = ["just"]
-need_stdout = true
-watch = ["Justfile", "bacon.toml", "Alice Pellerin - Resume.typ"]
-on_success = "scroll-to-bottom"
-
