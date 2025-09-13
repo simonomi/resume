@@ -70,7 +70,7 @@
 	
 	== Freelance Application Development
 	Since July 2025 — Boston, Massachusetts
-	- Building an iOS application for patient check-in
+	- Built an iOS application for patient check-in
 	- Iterated upon design through client feedback
 	
 	== Apple
