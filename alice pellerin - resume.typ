@@ -40,7 +40,7 @@
 	gutter: 3%
 )[
 	#align(center)[
-		#text(size: 2.5em)[*alice pellerin*] she/they
+		#text(size: 2.5em)[*alice pellerin*] she/her
 		
 		#set par(spacing: 0.5em)
 		
