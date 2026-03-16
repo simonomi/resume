@@ -69,7 +69,7 @@
 	= Work Experience
 	
 	== Freelance Application Development
-	Since July 2025 — Boston, Massachusetts
+	Since July 2025
 	- Built an iOS application for patient check-in
 	- Iterated upon design through client feedback
 	
